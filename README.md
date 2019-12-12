@@ -1,3 +1,9 @@
+由于个人原因，近期维护较少，非常抱歉！
+
+计划于暑期阶段（7~9月份）对mavonEditor进行一次大版本的更新，尤其针对【图片上传】、【代码高亮】以及【API文档】（目前文档繁琐使用不便 + 存在一些bug）。
+
+如有兴趣或建议可以通过邮件联系我，或者提供您的Pull Request，感谢！
+
 # mavonEditor
 
 ![npm](https://nodei.co/npm/mavon-editor.png?downloads=true&downloadRank=true&stars=true)
@@ -111,10 +117,6 @@ export default {
 | fontSize     | String  |     15px      | 编辑区域文字大小 |
 | scrollStyle  | Boolean |    true     | 开启滚动条样式(暂时仅支持chrome)              |
 | boxShadow     | Boolean  |     true     | 开启边框阴影                |
-| boxShadowStyle | String | 0 2px 12px 0 rgba(0, 0, 0, 0.1) | 边框阴影样式 |
-| transition | Boolean | true | 是否开启过渡动画 |
-| toolbarsBackground | String | #ffffff | 工具栏背景颜色 |
-| previewBackground | String | #fbfbfb | 预览框背景颜色 |
 | subfield     | Boolean |    true     | true： 双栏(编辑预览同屏)， false： 单栏(编辑预览分屏)    |
 | defaultOpen | String |         | edit： 默认展示编辑区域 ， preview： 默认展示预览区域  , 其他 = edit |
 | placeholder | String |    开始编辑...     |  输入框为空时默认提示文本  |
